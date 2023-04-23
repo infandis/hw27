@@ -1,0 +1,35 @@
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .slider-images {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .slider-button {
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .slider-image {
+    height: 300px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slider-image.shown {
+    display: block;
+  }
+
+  .prev-button.hidden,
+  .next-button.hidden {
+    display: none;
+  }
